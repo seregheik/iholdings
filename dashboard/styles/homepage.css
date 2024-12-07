@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+.center {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* Create two equal columns that floats next to each other */
+.column2 {
+  float: left;
+  width: 50%;
+  height: 300px;
+  /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.button1:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Create two equal columns that floats next to each other */
+.column2r {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+  /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row2r:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media only screen and (max-width: 600px) {
+  .paypalP {
+  }
+}
+
+/* Create three unequal columns that floats next to each other */
+.columnG {
+  float: left;
+  padding: 10px;
+  height: 150px;
+}
+
+.left,
+.right {
+  width: 25%;
+}
+
+.middle {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.rowG:after {
+  content: "";
+  display: table;
+  clear: both;
+}
