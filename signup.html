@@ -14,8 +14,10 @@
   <link rel="stylesheet" href="css/magnific-popup.css" />
   <link rel="stylesheet" href="css/slick.css" />
   <link rel="stylesheet" href="css/style.css" />
-  <script
-    nonce="7e93f4c9-4d4e-4a7c-bf96-b969e1bfe22c">(function (w, d) { !function (bb, bc, bd, be) { bb[bd] = bb[bd] || {}; bb[bd].executed = []; bb.zaraz = { deferred: [], listeners: [] }; bb.zaraz.q = []; bb.zaraz._f = function (bf) { return async function () { var bg = Array.prototype.slice.call(arguments); bb.zaraz.q.push({ m: bf, a: bg }) } }; for (const bh of ["track", "set", "debug"]) bb.zaraz[bh] = bb.zaraz._f(bh); bb.zaraz.init = () => { var bi = bc.getElementsByTagName(be)[0], bj = bc.createElement(be), bk = bc.getElementsByTagName("title")[0]; bk && (bb[bd].t = bc.getElementsByTagName("title")[0].text); bb[bd].x = Math.random(); bb[bd].w = bb.screen.width; bb[bd].h = bb.screen.height; bb[bd].j = bb.innerHeight; bb[bd].e = bb.innerWidth; bb[bd].l = bb.location.href; bb[bd].r = bc.referrer; bb[bd].k = bb.screen.colorDepth; bb[bd].n = bc.characterSet; bb[bd].o = (new Date).getTimezoneOffset(); if (bb.dataLayer) for (const bo of Object.entries(Object.entries(dataLayer).reduce(((bp, bq) => ({ ...bp[1], ...bq[1] })), {}))) zaraz.set(bo[0], bo[1], { scope: "page" }); bb[bd].q = []; for (; bb.zaraz.q.length;) { const br = bb.zaraz.q.shift(); bb[bd].q.push(br) } bj.defer = !0; for (const bs of [localStorage, sessionStorage]) Object.keys(bs || {}).filter((bu => bu.startsWith("_zaraz_"))).forEach((bt => { try { bb[bd]["z_" + bt.slice(7)] = JSON.parse(bs.getItem(bt)) } catch { bb[bd]["z_" + bt.slice(7)] = bs.getItem(bt) } })); bj.referrerPolicy = "origin"; bj.src = "../../cdn-cgi/zaraz/sd0d9.js?z=" + btoa(encodeURIComponent(JSON.stringify(bb[bd]))); bi.parentNode.insertBefore(bj, bi) };["complete", "interactive"].includes(bc.readyState) ? zaraz.init() : bb.addEventListener("DOMContentLoaded", zaraz.init) }(w, d, "zarazData", "script"); })(window, document);</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
   <style>
     @media screen and (min-width: 480px) {
       .Wscreen {
@@ -35,29 +37,36 @@
       }
     }
   </style>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
 </head>
 
-<body style="background-color:#7950DA;">
+<body style="background-color: #110884">
   <header class="main_menu home_menu">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-12">
           <nav class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand" href="index.html">
-              <h1 style="color:white; font-family:Coustard; font-size: 24px; cursor: pointer;">PrimeHoldings</h1>
+              <h1 style="
+                    color: white;
+                    font-family: Montserrat;
+                    font-size: 18px;
+                    cursor: pointer;
+                  ">
+                PrimeHoldings
+              </h1>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
               aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="ti-menu" style="color:white;"></span>
+              <span class="ti-menu" style="color: white"></span>
             </button>
             <div class="collapse navbar-collapse main-menu-item justify-content-center" id="navbarSupportedContent">
               <ul class="navbar-nav align-items-center">
                 <li class="nav-item">
                   <a class="nav-link" href="index.html" id="nabar" color="white">Home</a>
                 </li>
-                <li class="nav-item dropdown" style="color:white;">
+                <li class="nav-item dropdown" style="color: white">
                   <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false" color="white">
                     Plans
@@ -73,7 +82,7 @@
                 <li class="nav-item">
                   <a class="nav-link" href="security.html" color="white">Security</a>
                 </li>
-                <li class="nav-item dropdown" style="color:#1D2441;">
+                <li class="nav-item dropdown" style="color: #1d2441">
                   <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown" role="button"
                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" color="white">
                     Company
@@ -88,9 +97,15 @@
                   <a class="nav-link" href="https://crypto.com/" target="_blank" color="white">Buy Crypto</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="signin.html"><button type="button"
-                      style="color:black; border:none; width:120px; height:45px; border-radius:30px;">Sign
-                      In</button></a>
+                  <a class="nav-link" href="signin.html"><button type="button" style="
+                          color: black;
+                          border: none;
+                          width: 120px;
+                          height: 45px;
+                          border-radius: 10px;
+                        ">
+                      Sign In
+                    </button></a>
                 </li>
               </ul>
             </div>
@@ -103,55 +118,98 @@
   <br /><br />
   <center>
     <br /><br />
-    <h2 style="text-align:center; color:white;">Create your account</h2>
-    <br /><br />
+    <h2 style="text-align: center; color: white; text-transform: uppercase">
+      Create your account
+    </h2>
+    <br />
     <div class="Wscreen" id="Pscreen">
       <br />
-      <h6 style="color:#71879C; text-align:center;">Required fields have an asterisk: *
+      <h6 style="color: #110884; text-align: center">
+        Required fields have an asterisk: *
       </h6>
       <br /><br />
       <div width="">
         <div class="container">
           <form action="" method="post">
-            <div class="row">
+            <div class="row m-0 gap-3">
               <div class="col">
-                <input type="text" class="form-control" id="email" placeholder="First name *" name="fname" style="outline: transparent solid 2px; font-size:1rem; padding-inline: 16px; height: 56px; border: 1px solid rgba(0, 0, 0, 0.1);
-    background: rgba(0, 0, 0, 0.02);
-    font-weight: 500;     color:#1D2441; border-color:#E2E8F0;" required>
+                <input type="text" class="form-control" id="email" placeholder="First name *" name="fname" style="
+                      outline: transparent solid 2px;
+                      font-size: 1rem;
+                      padding-inline: 16px;
+                      height: 56px;
+                      border: 1px solid rgba(0, 0, 0, 0.1);
+                      background: rgba(0, 0, 0, 0.02);
+                      font-weight: 500;
+                      color: #1d2441;
+                      border-color: #e2e8f0;
+                    " required />
               </div>
               <div class="col">
-                <input type="text" class="form-control" placeholder="Last name *" name="lname" style="outline: transparent solid 2px; font-size:1rem; padding-inline: 16px; height: 56px; border: 1px solid rgba(0, 0, 0, 0.1);
-    background: rgba(0, 0, 0, 0.02);
-    font-weight: 500;     color:#1D2441; border-color:#E2E8F0;" required>
+                <input type="text" class="form-control" placeholder="Last name *" name="lname" style="
+                      outline: transparent solid 2px;
+                      font-size: 1rem;
+                      padding-inline: 16px;
+                      height: 56px;
+                      border: 1px solid rgba(0, 0, 0, 0.1);
+                      background: rgba(0, 0, 0, 0.02);
+                      font-weight: 500;
+                      color: #1d2441;
+                      border-color: #e2e8f0;
+                    " required />
+              </div>
+              <div class="col-12" style="margin-top: 10px;">
+                <input type="email" class="form-control" placeholder="Email *" name="email" style="
+                      outline: transparent solid 2px;
+                      font-size: 1rem;
+                      padding-inline: 16px;
+                      height: 56px;
+                      border: 1px solid rgba(0, 0, 0, 0.1);
+                      background: rgba(0, 0, 0, 0.02);
+                      font-weight: 500;
+                      color: #1d2441;
+                      border-color: #e2e8f0;
+                      width: 100%;
+                    " required />
+              </div>
+              <div class="col-12" style="margin-top: 10px;">
+                <input type="password" class="form-control" placeholder="Choose Password *" name="password" style="
+                      outline: transparent solid 2px;
+                      font-size: 1rem;
+                      padding-inline: 16px;
+                      height: 56px;
+                      border: 1px solid rgba(0, 0, 0, 0.1);
+                      background: rgba(0, 0, 0, 0.02);
+                      font-weight: 500;
+                      color: #1d2441;
+                      border-color: #e2e8f0;
+                      width: 100%;
+                    " required />
+              </div>
+              <div class="col-12" style="margin-top: 10px;">
+                <span>
+                  <input type="checkbox" required="required" /> I certify that
+                  I am 18years of age or older
+                </span>
               </div>
             </div>
             <br />
-            <div class="col">
-              <input type="email" class="form-control" placeholder="Email *" name="email" style="outline: transparent solid 2px; font-size:1rem; padding-inline: 16px; height: 56px; border: 1px solid rgba(0, 0, 0, 0.1);
-    background: rgba(0, 0, 0, 0.02);
-    font-weight: 500;     color:#1D2441; border-color:#E2E8F0; width:100%;" required>
-            </div>
-            <br />
-            <div class="col">
-              <input type="password" class="form-control" placeholder="Choose Password *" name="password" style="outline: transparent solid 2px; font-size:1rem; padding-inline: 16px; height: 56px; border: 1px solid rgba(0, 0, 0, 0.1);
-    background: rgba(0, 0, 0, 0.02);
-    font-weight: 500;     color:#1D2441; border-color:#E2E8F0; width:100%;" required>
-            </div>
-            <br />
-            <div class="col">
-              <span> <input type="checkbox" required="required"> I certify that I am 18years of age or older
-              </span>
-            </div>
-            <br />
-            <button type="submit" name="submit" class="btn_1"
-              style="background-color:#7950DA; width:250px; height:56px; padding-top:19px;">Create Account</button>
+            <button type="submit" name="submit" class="btn btn_primary" style="
+                            background-color: #110884;
+                            border-radius: 10px;
+                            color: white;
+                            padding: 10px 15px;
+                          ">
+              CREATE ACCOUNT
+            </button>
           </form>
         </div>
       </div>
       <br /><br />
-      <h6 style="padding:60px;"><b style="color:white;">Already have a PrimeHoldings account? <span
-            style="color:black;"><a href="signin.html" style="color:white;">Log
-              in</a></span></b></h6>
+      <h6 style="padding: 60px">
+        <b style="color: white">Already have a PrimeHoldings account?
+          <span style="color: black"><a href="signin.html" style="color: white">Log in</a></span></b>
+      </h6>
       <br /><br />
     </div>
   </center>
@@ -168,9 +226,11 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'UA-23581568-13');
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+    gtag("config", "UA-23581568-13");
   </script>
   <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317"
     integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA=="
@@ -179,10 +239,47 @@
   <script>
     window.__lc = window.__lc || {};
     window.__lc.license = 17556333;
-    ; (function (n, t, c) { function i(n) { return e._h ? e._h.apply(null, n) : e._q.push(n) } var e = { _q: [], _h: null, _v: "2.0", on: function () { i(["on", c.call(arguments)]) }, once: function () { i(["once", c.call(arguments)]) }, off: function () { i(["off", c.call(arguments)]) }, get: function () { if (!e._h) throw new Error("[LiveChatWidget] You can't use getters before load."); return i(["get", c.call(arguments)]) }, call: function () { i(["call", c.call(arguments)]) }, init: function () { var n = t.createElement("script"); n.async = !0, n.type = "text/javascript", n.src = "https://cdn.livechatinc.com/tracking.js", t.head.appendChild(n) } }; !n.__lc.asyncInit && e.init(), n.LiveChatWidget = n.LiveChatWidget || e }(window, document, [].slice))
+    (function (n, t, c) {
+      function i(n) {
+        return e._h ? e._h.apply(null, n) : e._q.push(n);
+      }
+      var e = {
+        _q: [],
+        _h: null,
+        _v: "2.0",
+        on: function () {
+          i(["on", c.call(arguments)]);
+        },
+        once: function () {
+          i(["once", c.call(arguments)]);
+        },
+        off: function () {
+          i(["off", c.call(arguments)]);
+        },
+        get: function () {
+          if (!e._h)
+            throw new Error(
+              "[LiveChatWidget] You can't use getters before load."
+            );
+          return i(["get", c.call(arguments)]);
+        },
+        call: function () {
+          i(["call", c.call(arguments)]);
+        },
+        init: function () {
+          var n = t.createElement("script");
+          (n.async = !0),
+            (n.type = "text/javascript"),
+            (n.src = "https://cdn.livechatinc.com/tracking.js"),
+            t.head.appendChild(n);
+        },
+      };
+      !n.__lc.asyncInit && e.init(),
+        (n.LiveChatWidget = n.LiveChatWidget || e);
+    })(window, document, [].slice);
   </script>
-  <noscript><a href="https://www.livechat.com/chat-with/17556333/" rel="nofollow">Chat with us</a>, powered by <a
-      href="https://www.livechat.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a></noscript>
+  <noscript><a href="https://www.livechat.com/chat-with/17556333/" rel="nofollow">Chat with us</a>, powered by
+    <a href="https://www.livechat.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a></noscript>
 </body>
 
 </html>

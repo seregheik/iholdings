@@ -14,6 +14,10 @@
     <link rel="stylesheet" href="css/magnific-popup.css" />
     <link rel="stylesheet" href="css/slick.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" />
     <script nonce="391d73b9-bfb7-43a7-9c9b-4b58184baf7f">
         (function (w, d) {
             !(function (bb, bc, bd, be) {
@@ -164,19 +168,14 @@
 </head>
 
 <body>
-    <header class="main_menu home_menu">
+    <header class="main_menu home_menu" style="box-shadow: 1px 7px 20px -11px #110884a3; background-color: white;">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-12">
                     <nav class="navbar navbar-expand-lg navbar-light">
                         <a class="navbar-brand" href="index.html">
-                            <h1 class="chakra-text css-js82qr" style="
-                    color: #7950da;
-                    font-family: Coustard;
-                    font-size: 30px;
-                    cursor: pointer;
-                  ">
-                                <b style="color: #7950da; font-family: Coustard">PrimeHoldings</b>
+                            <h1 class="chakra-text css-js82qr" style="color: #110884; font-size: 18px; cursor: pointer">
+                                <b style="color: #110884; font-family: Montserrat">PrimeHoldings</b>
                             </h1>
                         </a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -188,7 +187,7 @@
                             id="navbarSupportedContent">
                             <ul class="navbar-nav align-items-center">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="index.html" style="color: #7950da">Home</a>
+                                    <a class="nav-link" href="index.html" style="color: #110884">Home</a>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href id="navbarDropdown" role="button"
@@ -230,12 +229,12 @@
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="signin.html"><button type="button" style="
-                          background-color: #7950da;
+                          background-color: #110884;
                           color: white;
                           border: none;
                           width: 90px;
                           height: 45px;
-                          border-radius: 20px;
+                          border-radius: 10px;
                         ">
                                             Sign In
                                         </button></a>
@@ -247,18 +246,21 @@
             </div>
         </div>
     </header>
-    <section class="banner_part">
+    <section class="" style="
+    background-color: rgb(218, 217, 217);
+        /* box-shadow: 1px 7px 20px -11px #110884a3;  */
+        min-height: 80vh; display: flex; align-items: center;">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 offset-lg-1">
                     <div class="banner_text">
-                        <div class="banner_text_iner" style="padding-top: 90px">
+                        <div class="banner_text_iner">
                             <br />
                             <h2 style="
                     color: black;
                     text-align: left;
-                    font-family: Coustard, san-serif;
-                    font-weight: 500px;
+                    font-family: 'Montserrat';
+                    font-weight: 500;
                     font-size: 40px;
                     line-height: 1.33;
                     max-width: 361px;
@@ -267,50 +269,54 @@
                                 Invest for<br />
                                 the future
                             </h2>
-                            <p style="
-                    color: black;
-                    text-align: left;
-                  ">
+                            <p style="color: black; text-align: left">
                                 <b style="color: black">We strategically invest your funds into secure,
                                     high-quality assets, fostering wealth growth and realizing
                                     your financial aspirations</b>
                             </p>
-                            <a href="signup.php" class="btn_1" style="
-                    background-color: #7950da;
+                            <div style="display: flex; justify-content: start;">
+                                <a href="signup.php" class="btn_1" style="
+                    background-color: #110884;
                     width: 250px;
                     height: 70px;
                     padding-top: 25px;
+                    border-radius: 10px;
                   ">Start Investing</a>
-                            <img src="images/iphone_banner.png" />
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <br />
-    <br />
-    <br /><br />
-    <br />
-    <center>
-        <img src="img/bolt.png" style="width: 50px; height: 50px" />
-    </center>
-    <h2 style="
+    <!-- <center>
+        <div style="display: flex; justify-content: center; width: 100%;">
+            <img src="images/iphone_banner.png" style="max-width: 100px;" />
+        </div>
+
+    </center> -->
+    <section style="padding: 30px;">
+        <center>
+            <img src="img/bolt.png" style="width: 50px; height: 50px" />
+        </center>
+        <h2 style="
         text-align: center;
         font-size: 25px;
         font-weight: 500;
         color: black;
         font-weight: bold;
       " class="chakra-text css-13kijgc">
-        Trusted to provide the best <br />return on investment
-    </h2>
-    <center>
-        <p style="text-align: center; color: black; width: 80%">
-            Join the millions of investors around the world who trust us to grow
-            their portfolios with our<br />
-            expertise and market-leading returns.
-        </p>
-    </center>
+            Trusted to provide the best <br />return on investment
+        </h2>
+        <center>
+            <p style="text-align: center; color: black; width: 80%">
+                Join the millions of investors around the world who trust us to grow
+                their portfolios with our<br />
+                expertise and market-leading returns.
+            </p>
+        </center>
+    </section>
+
     <br />
     <section class="our_service">
         <div class="container">
@@ -371,9 +377,9 @@
                             industry
                         </p>
                         <a href="#" class="btn_1" style="
-                  color: #7950da;
+                  color: #110884;
                   background-color: #edf2f7;
-                  border:1px solid #7950da;
+                  border: 1px solid #110884;
                 ">Get Started</a>
                         <img src="images/world.png" style />
                     </div>
@@ -400,7 +406,8 @@
         margin-block-end: 0.83em;
         margin-inline-start: 0px;
         margin-inline-end: 0px;
-        font-weight: bold;" class="chakra-text css-13kijgc">
+        font-weight: bold;
+      " class="chakra-text css-13kijgc">
         Plan Classes
     </h1>
     <p style="text-align: center; color: black; margin: 0; font-weight: bold">
@@ -449,7 +456,7 @@
                                     <a href="#" style="color: #71879c">Range
                                         <span style="color: black">$100,000 - unlimited</span></a>
                                 </li>
-                                <a href="crypto_premium.html" style="color: #7950da">Learn How Cryptocurrency Premium
+                                <a href="crypto_premium.html" style="color: #110884">Learn How Cryptocurrency Premium
                                     Works
                                     <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
                             </ul>
@@ -457,12 +464,12 @@
                     </div>
                 </div>
                 <div class="col-sm-6 col-xl-4" style="height: 700px">
-                    <div class="single_feature" style="background-color: #7950da80; height: 150px">
+                    <div class="single_feature" style="background-color: #11088480; height: 150px">
                         <div class="single_service">
                             <br /><br />
                             <center>
                                 <div style="
-                      background-color: #7950dadd;
+                      background-color: #110884dd;
                       height: 100px;
                       width: 100px;
                       border-radius: 100%;
@@ -496,7 +503,7 @@
                                     <a href="#" style="color: #71879c">Range
                                         <span style="color: black">$25,000- $99,999</span></a>
                                 </li>
-                                <a href="crypto_intermediate.html" style="color: #7950da">Learn How Cryptocurrency
+                                <a href="crypto_intermediate.html" style="color: #110884">Learn How Cryptocurrency
                                     Intermediate Works
                                     <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
                             </ul>
@@ -540,7 +547,7 @@
                                     <a href="#" style="color: #e2e8f0">Range <span
                                             style="color: black">$5,000-$24,999</span></a>
                                 </li>
-                                <a href="crypto_basic.html" style="color: #7950da">Learn How Cryptocurrency basic Works
+                                <a href="crypto_basic.html" style="color: #110884">Learn How Cryptocurrency basic Works
                                     <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
                             </ul>
                         </div>
@@ -583,7 +590,7 @@
                                     <a href="#" style="color: gray">Range <span
                                             style="color: black">$2,000-$5,000</span></a>
                                 </li>
-                                <a href="fixed_income.html" style="color: #7950da">Learn How Fixed Income Works
+                                <a href="fixed_income.html" style="color: #110884">Learn How Fixed Income Works
                                     <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
                             </ul>
                         </div>
@@ -616,7 +623,7 @@
               height: 80px;
               border-radius: 100%;
               background-color: transparent;
-              border: 1px solid #7950da;
+              border: 1px solid #110884;
             ">
                     <img src="https://fortedges-web.vercel.app/images/icons/dollar.png" />
                 </button>
@@ -640,7 +647,7 @@
               height: 80px;
               border-radius: 100%;
               background-color: transparent;
-              border: 1px solid #7950da;
+              border: 1px solid #110884;
             ">
                     <img src="https://fortedges-web.vercel.app/images/icons/smiley.png" />
                 </button>
@@ -664,7 +671,7 @@
               height: 80px;
               border-radius: 100%;
               background-color: transparent;
-              border: 1px solid #7950da;
+              border: 1px solid #110884;
             ">
                     <img src="https://fortedges-web.vercel.app/images/icons/lock.png" />
                 </button>
@@ -1001,7 +1008,7 @@
                   font-weight: bold;
                   font-size: 32px;
                   line-height: 1.33;
-                  color: #7950da;
+                  color: #110884;
                   text-align: center;
                   margin-top: 32px;
                   margin-bottom: 32px;
@@ -1110,13 +1117,13 @@
                 <div class="column4" style="background-color: #e2e8f0">
                     <center></center>
                     <p><b style="color: black">Talk to someone </b></p>
-                    <a href="https://calendly.com/ubassets/30min?month=2023-11" style="color: #7950da">Get live online
+                    <a href="https://calendly.com/ubassets/30min?month=2023-11" style="color: #110884">Get live online
                         assistance <i class="fa fa-arrow-right"></i></a>
                 </div>
                 <div class="column4" style="background-color: #e2e8f0">
                     <center></center>
                     <p><b style="color: black">Email </b></p>
-                    <a href="mailto:support@ubassets.com" style="color: #7950da">Send us an email
+                    <a href="mailto:support@ubassets.com" style="color: #110884">Send us an email
                         <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
                 </div>
             </div>
@@ -1174,8 +1181,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="copyright_part_text text-center">
-                        <div class="row">
-                        </div>
+                        <div class="row"></div>
                     </div>
                 </div>
             </div>
