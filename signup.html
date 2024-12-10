@@ -42,7 +42,9 @@
 </head>
 
 <body style="background-color: #110884">
-  <header class="main_menu home_menu">
+  <header class="main_menu home_menu menu_fixed animated fadeInDown" style="
+    backdrop-filter: blur(1000px);
+">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-12">
@@ -67,24 +69,26 @@
                   <a class="nav-link" href="index.html" id="nabar" color="white">Home</a>
                 </li>
                 <li class="nav-item dropdown" style="color: white">
-                  <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false" color="white">
+                  <a class="nav-link dropdown-toggle" href="signin.html" id="navbarDropdown" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" color="white">
                     Plans
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="crypto_premium.html" color="white">Cryptocurrency Premium</a>
                     <a class="dropdown-item" href="crypto_intermediate.html" color="white">Cryptocurrency
                       Intermediate</a>
-                    <a class="dropdown-item" href="crypto_basic.html" color="white">Cryptocurrency basic</a>
-                    <a class="dropdown-item" href="fixed_income.html" color="white">Fixed Income</a>
+                    <a class="dropdown-item" href="crypto_basic.html" color="white">Cryptocurrency
+                      basic</a>
+                    <a class="dropdown-item" href="fixed_income.html" color="white">Fixed
+                      Income</a>
                   </div>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="security.html" color="white">Security</a>
                 </li>
                 <li class="nav-item dropdown" style="color: #1d2441">
-                  <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown" role="button"
-                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" color="white">
+                  <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false" color="white">
                     Company
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -100,7 +104,7 @@
                   <a class="nav-link" href="signin.html"><button type="button" style="
                           color: black;
                           border: none;
-                          width: 120px;
+                          width: 100px;
                           height: 45px;
                           border-radius: 10px;
                         ">
@@ -114,26 +118,24 @@
       </div>
     </div>
   </header>
-  <br /><br />
-  <br /><br />
-  <center>
-    <br /><br />
-    <h2 style="text-align: center; color: white; text-transform: uppercase">
-      Create your account
-    </h2>
-    <br />
-    <div class="Wscreen" id="Pscreen">
-      <br />
-      <h6 style="color: #110884; text-align: center">
-        Required fields have an asterisk: *
-      </h6>
+  <section style="margin: 0 auto; padding: 0 15px;">
+    <center>
       <br /><br />
-      <div width="">
-        <div class="container">
-          <form action="" method="post">
-            <div class="row m-0 gap-3">
-              <div class="col">
-                <input type="text" class="form-control" id="email" placeholder="First name *" name="fname" style="
+      <h2 style="text-align: center; color: white; text-transform: uppercase; font-size: 20px;">Create Account</h2>
+
+      <br />
+      <div class="Wscreen" id="Pscreen">
+        <br />
+        <h6 style="color: #110884; text-align: center">
+          Required fields have an asterisk: *
+        </h6>
+        <br /><br />
+        <div width="">
+          <div class="container">
+            <form action="" method="post">
+              <div class="row m-0 gap-3">
+                <div class="col">
+                  <input type="text" class="form-control" id="email" placeholder="First name *" name="fname" style="
                       outline: transparent solid 2px;
                       font-size: 1rem;
                       padding-inline: 16px;
@@ -144,9 +146,9 @@
                       color: #1d2441;
                       border-color: #e2e8f0;
                     " required />
-              </div>
-              <div class="col">
-                <input type="text" class="form-control" placeholder="Last name *" name="lname" style="
+                </div>
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Last name *" name="lname" style="
                       outline: transparent solid 2px;
                       font-size: 1rem;
                       padding-inline: 16px;
@@ -157,9 +159,9 @@
                       color: #1d2441;
                       border-color: #e2e8f0;
                     " required />
-              </div>
-              <div class="col-12" style="margin-top: 10px;">
-                <input type="email" class="form-control" placeholder="Email *" name="email" style="
+                </div>
+                <div class="col-12" style="margin-top: 10px;">
+                  <input type="email" class="form-control" placeholder="Email *" name="email" style="
                       outline: transparent solid 2px;
                       font-size: 1rem;
                       padding-inline: 16px;
@@ -171,9 +173,9 @@
                       border-color: #e2e8f0;
                       width: 100%;
                     " required />
-              </div>
-              <div class="col-12" style="margin-top: 10px;">
-                <input type="password" class="form-control" placeholder="Choose Password *" name="password" style="
+                </div>
+                <div class="col-12" style="margin-top: 10px;">
+                  <input type="password" class="form-control" placeholder="Choose Password *" name="password" style="
                       outline: transparent solid 2px;
                       font-size: 1rem;
                       padding-inline: 16px;
@@ -185,34 +187,37 @@
                       border-color: #e2e8f0;
                       width: 100%;
                     " required />
+                </div>
+                <div class="col-12" style="margin-top: 10px;">
+                  <span>
+                    <input type="checkbox" required="required" /> I certify that
+                    I am 18years of age or older
+                  </span>
+                </div>
               </div>
-              <div class="col-12" style="margin-top: 10px;">
-                <span>
-                  <input type="checkbox" required="required" /> I certify that
-                  I am 18years of age or older
-                </span>
-              </div>
-            </div>
-            <br />
-            <button type="submit" name="submit" class="btn btn_primary" style="
+              <br />
+              <button type="submit" name="submit" class="btn btn_primary" style="
                             background-color: #110884;
                             border-radius: 10px;
                             color: white;
                             padding: 10px 15px;
                           ">
-              CREATE ACCOUNT
-            </button>
-          </form>
+                CREATE ACCOUNT
+              </button>
+            </form>
+          </div>
         </div>
+        <br /><br />
+        <h6 style="padding: 60px">
+
+          <span style="color: black"><a href="signin.html" style="color: white"><span
+                style="color: white; padding-right: 4px; font-weight: 400;">Already have
+                an account?</span>Log in</a></span>
+        </h6>
+        <br /><br />
       </div>
-      <br /><br />
-      <h6 style="padding: 60px">
-        <b style="color: white">Already have a PrimeHoldings account?
-          <span style="color: black"><a href="signin.html" style="color: white">Log in</a></span></b>
-      </h6>
-      <br /><br />
-    </div>
-  </center>
+    </center>
+  </section>
   <br /><br />
   <br /><br />
   <script src="js/jquery-1.12.1.min.js"></script>
