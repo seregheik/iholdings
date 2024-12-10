@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <title>FAQs | PrimeHoldings</title>
+    <title>Why PrimeHoldings | Prime Holdings</title>
     <link rel="icon" href="img/favicon.png" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/animate.css" />
@@ -18,6 +18,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <script
+        nonce="7e93f4c9-4d4e-4a7c-bf96-b969e1bfe22c">(function (w, d) { !function (bb, bc, bd, be) { bb[bd] = bb[bd] || {}; bb[bd].executed = []; bb.zaraz = { deferred: [], listeners: [] }; bb.zaraz.q = []; bb.zaraz._f = function (bf) { return async function () { var bg = Array.prototype.slice.call(arguments); bb.zaraz.q.push({ m: bf, a: bg }) } }; for (const bh of ["track", "set", "debug"]) bb.zaraz[bh] = bb.zaraz._f(bh); bb.zaraz.init = () => { var bi = bc.getElementsByTagName(be)[0], bj = bc.createElement(be), bk = bc.getElementsByTagName("title")[0]; bk && (bb[bd].t = bc.getElementsByTagName("title")[0].text); bb[bd].x = Math.random(); bb[bd].w = bb.screen.width; bb[bd].h = bb.screen.height; bb[bd].j = bb.innerHeight; bb[bd].e = bb.innerWidth; bb[bd].l = bb.location.href; bb[bd].r = bc.referrer; bb[bd].k = bb.screen.colorDepth; bb[bd].n = bc.characterSet; bb[bd].o = (new Date).getTimezoneOffset(); if (bb.dataLayer) for (const bo of Object.entries(Object.entries(dataLayer).reduce(((bp, bq) => ({ ...bp[1], ...bq[1] })), {}))) zaraz.set(bo[0], bo[1], { scope: "page" }); bb[bd].q = []; for (; bb.zaraz.q.length;) { const br = bb.zaraz.q.shift(); bb[bd].q.push(br) } bj.defer = !0; for (const bs of [localStorage, sessionStorage]) Object.keys(bs || {}).filter((bu => bu.startsWith("_zaraz_"))).forEach((bt => { try { bb[bd]["z_" + bt.slice(7)] = JSON.parse(bs.getItem(bt)) } catch { bb[bd]["z_" + bt.slice(7)] = bs.getItem(bt) } })); bj.referrerPolicy = "origin"; bj.src = "../../cdn-cgi/zaraz/sd0d9.js?z=" + btoa(encodeURIComponent(JSON.stringify(bb[bd]))); bi.parentNode.insertBefore(bj, bi) };["complete", "interactive"].includes(bc.readyState) ? zaraz.init() : bb.addEventListener("DOMContentLoaded", zaraz.init) }(w, d, "zarazData", "script"); })(window, document);</script>
     <style>
         @media screen and (max-width: 480px) {
             .logoR {
@@ -117,42 +119,40 @@
         }
     </style>
     <style>
-        .accordion {
-            background-color: #fff;
-            color: #444;
-            cursor: pointer;
-            padding: 18px;
-            width: 100%;
-            border: none;
-            text-align: left;
-            outline: none;
-            font-size: 15px;
-            transition: 0.4s;
+        @media screen and (min-width: 480px) {
+            .Sysv {
+                padding-left: 120px;
+            }
         }
 
-        .active,
-        .accordion:hover {
-            background-color: #ccc;
+        @media screen and (max-width: 480px) {
+            #Phonv {
+                padding-left: 30px;
+            }
+        }
+    </style>
+    <style>
+        * {
+            box-sizing: border-box;
         }
 
-        .accordion:after {
-            content: '\002B';
-            color: #777;
-            font-weight: bold;
-            float: right;
-            margin-left: 5px;
+        .column {
+            float: left;
+            width: 25%;
+            padding: 10px;
+
         }
 
-        .active:after {
-            content: "\2212";
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
         }
 
-        .panel {
-            padding: 0 18px;
-            background-color: white;
-            max-height: 0;
-            overflow: hidden;
-            transition: max-height 0.2s ease-out;
+        @media screen and (max-width: 600px) {
+            .column {
+                width: 100%;
+            }
         }
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -221,13 +221,13 @@
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="signin.html"><button type="button" style="
-                              background-color: #110884;
-                              color: white;
-                              border: none;
-                              width: 90px;
-                              height: 45px;
-                              border-radius: 10px;
-                            ">
+                                  background-color: #110884;
+                                  color: white;
+                                  border: none;
+                                  width: 90px;
+                                  height: 45px;
+                                  border-radius: 10px;
+                                ">
                                             Sign In
                                         </button></a>
                                 </li>
@@ -238,131 +238,139 @@
             </div>
         </div>
     </header>
-    <div style="display: flex;
-    -webkit-box-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    justify-content: center;
-    min-height: 256px;
-    background: rgb(249, 248, 254); width:100%; height:300px; padding-top:70px;">
-        <p style="text-align: center;
-    font-weight: 700;
-    font-size: 52px; color:#100884;"> FAQ
-        </p>
-    </div>
-    <section style="margin: 0 auto ; max-width: 1024px;">
-        <center>
-            <br /><br /><br /><br /><br />
-            <button class="accordion">How does PrimeHoldings work</button>
-            <div class="panel">
-                <p>PrimeHoldings works like a personal investment manager and adviser that lives on your
-                    smartphone/computer, helping you invest in dollar denominated assets carefully selected to deliver
-                    safe,
-                    consistent dollar returns over time.
-                </p>
-            </div>
-            <button class="accordion">What kind of investments do I get with PrimeHoldings?</button>
-            <div class="panel">
-                <p>PrimeHoldings is the only platform that allows you to allocate capital across a portfolio of
-                    stocks, rental properties, cryptocurrency and global fixed income assets, all in dollars. We vet the
-                    assets for quality, long term potential and their capacity to deliver stable returns for you in all
-                    market conditions</p>
-            </div>
-            <button class="accordion">What is the minimum investment?</button>
-            <div class="panel">
-                <p>You can start investing from just $2,000 and there is no maximum. PrimeHoldings can invest for
-                    you whether you’re just starting your journey or you have millions in capital to preserve.
-                </p>
-            </div>
-            <button class="accordion">When can I withdraw my investments?</button>
-            <div class="panel">
-                <p>You can withdraw on maturity, and the shortest duration is 30 Days. All withdrawal requests are
-                    processed
-                    within 24 hours.
-                </p>
-            </div>
-            <button class="accordion">How is PrimeHoldings Regulated?</button>
-            <div class="panel">
-                <p>PrimeHoldings is a New York trust company regulated by the New York State Department of
-                    Financial Services (NYSDFS)
-                </p>
-            </div>
-            <button class="accordion">Can I trade on PrimeHoldings ?</button>
-            <div class="panel">
-                <p>PrimeHoldings is a digital wealth manager, we provide managed portfolios selected and managed
-                    through our app. Users cannot trade or pick securities by themselves.
-                </p>
-            </div>
-            <button class="accordion">What is 2-step verification</button>
-            <div class="panel">
-                <p>Two-factor authentication (2FA), also known as 2-step verification, is a security layer in addition
-                    to
-                    your username and password. With 2FA enabled on your account, you will have to provide your password
-                    (first "factor") and your 2FA code (second "factor") when signing in to your account. 2FA codes are
-                    associated with a specific device (such as your phone) or email
-                </p>
-            </div>
-            <button class="accordion">What happens when i withdraw?</button>
-            <div class="panel">
-                <p>You can withdraw as many times as possible, there are no penalties.
-                </p>
-            </div>
-            <button class="accordion">How do I get interest on my wallet balance?</button>
-            <div class="panel">
-                <p>Interests are added every day based on the Roi on the plan.
-                </p>
-            </div>
-            <button class="accordion">Are my funds insured?</button>
-            <div class="panel">
-                <h4> U.S. DOLLARS</h4>
-                <p>U.S. dollars in your PrimeHoldings Account are eligible for FDIC insurance, subject to
-                    applicable limitations. Please see our User Agreement for more information.
-                </p>
-                <h4>CRYPTO</h4>
-                <p>PrimeHoldings maintains insurance coverage for the crypto that we hold on your behalf in our
-                    online hot wallet. Please see our User Agreement for more information
-                </p>
-            </div>
-            <button class="accordion">My deposit hasn’t arrived</button>
-            <div class="panel">
-                <p>Contact us via email <a href="mailto:support@PrimeHoldings.com">support@PrimeHoldings.com</a>
-                </p>
-            </div>
-            </div>
-        </center>
-        <br /><br /><br /><br /><br />
-    </section>
+    <section class="breadcrumb breadcrumb_bg align-items-center" style="height:500px; background-color: #110884;">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-sm-6">
+                    <div class="breadcrumb_tittle">
+                        <br /><br />
+                        <center>
+                            <h3 style="text-align:center; color:white; font-size:35px;">Why PrimeHoldings</h3>
+                            <h4 style="text-align:center; color:white; font-size:15px; font-weight: 300;">Wealth
+                                management with you at the center</h4>
+                        </center>
+                    </div>
+                </div>
+                <div class="col-sm-6 d-none d-sm-block">
+                    <div style="display: flex; justify-content: center;">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+                            width="256" height="256" viewBox="0 0 256 256" xml:space="preserve">
 
-    <center>
-        <div style="width: 90%; background-color: #10088434">
-            <br /><br />
-            <h2 style="text-align: center">
-                Have more questions? We’re here to help.
-            </h2>
-            <br />
-            <div class="row4" style>
-                <div class="column4">
-                    <center>
-                        <a href="https://wa.link/qn3si8" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"
-                                style="color: green; font-size: 50px; border-color: #e2e8f0"></i></a>
-                    </center>
-                    <p><b style="color: black">WhatsApp</b></p>
-                </div>
-                <div class="column4">
-                    <center></center>
-                    <p><b style="color: black">Talk to someone </b></p>
-                    <a href="https://calendly.com/ubassets/30min?month=2023-11" style="color: #110884">Get live online
-                        assistance <i class="fa fa-arrow-right"></i></a>
-                </div>
-                <div class="column4">
-                    <center></center>
-                    <p><b style="color: black">Email </b></p>
-                    <a href="mailto:support@ubassets.com" style="color: #110884">Send us an email
-                        <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                            <defs>
+                            </defs>
+                            <g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;"
+                                transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+                                <path
+                                    d="M 45 58.88 c -2.209 0 -4 -1.791 -4 -4 v -4.543 c 0 -1.101 0.454 -2.153 1.254 -2.908 l 8.083 -7.631 c 1.313 -1.377 2.035 -3.181 2.035 -5.087 v -0.302 c 0 -2.005 -0.791 -3.881 -2.228 -5.281 c -1.436 -1.399 -3.321 -2.14 -5.342 -2.089 c -3.957 0.102 -7.175 3.523 -7.175 7.626 c 0 2.209 -1.791 4 -4 4 s -4 -1.791 -4 -4 c 0 -8.402 6.715 -15.411 14.969 -15.623 c 4.183 -0.109 8.138 1.439 11.131 4.357 c 2.995 2.918 4.645 6.829 4.645 11.01 v 0.302 c 0 4.027 -1.546 7.834 -4.354 10.72 c -0.04 0.041 -0.08 0.081 -0.121 0.12 L 49 52.062 v 2.818 C 49 57.089 47.209 58.88 45 58.88 z"
+                                    style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"
+                                    transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                <path
+                                    d="M 45 71.96 c -1.32 0 -2.61 -0.53 -3.54 -1.46 c -0.23 -0.23 -0.43 -0.49 -0.62 -0.76 c -0.18 -0.271 -0.33 -0.561 -0.46 -0.86 c -0.12 -0.311 -0.22 -0.62 -0.28 -0.94 c -0.07 -0.32 -0.1 -0.65 -0.1 -0.98 c 0 -0.32 0.03 -0.65 0.1 -0.97 c 0.06 -0.32 0.16 -0.641 0.28 -0.94 c 0.13 -0.3 0.28 -0.59 0.46 -0.86 c 0.19 -0.279 0.39 -0.529 0.62 -0.76 c 1.16 -1.16 2.89 -1.7 4.52 -1.37 c 0.32 0.07 0.629 0.16 0.93 0.29 c 0.3 0.12 0.59 0.28 0.859 0.46 c 0.28 0.181 0.53 0.391 0.761 0.62 c 0.239 0.23 0.439 0.48 0.63 0.76 c 0.18 0.271 0.33 0.561 0.46 0.86 c 0.12 0.3 0.22 0.62 0.279 0.94 C 49.97 66.31 50 66.64 50 66.96 c 0 0.33 -0.03 0.66 -0.101 0.979 c -0.06 0.32 -0.159 0.63 -0.279 0.94 c -0.13 0.3 -0.28 0.59 -0.46 0.86 c -0.19 0.27 -0.391 0.529 -0.63 0.76 c -0.23 0.229 -0.48 0.439 -0.761 0.62 c -0.27 0.18 -0.56 0.34 -0.859 0.46 c -0.301 0.13 -0.61 0.22 -0.93 0.279 C 45.65 71.93 45.33 71.96 45 71.96 z"
+                                    style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"
+                                    transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                <path
+                                    d="M 45 90 C 20.187 90 0 69.813 0 45 S 20.187 0 45 0 s 45 20.187 45 45 S 69.813 90 45 90 z M 45 8 C 24.598 8 8 24.598 8 45 s 16.598 37 37 37 s 37 -16.598 37 -37 S 65.402 8 45 8 z"
+                                    style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;"
+                                    transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                            </g>
+                        </svg>
+                    </div>
+
                 </div>
             </div>
         </div>
-    </center>
+    </section>
+    <section style="margin: 0 auto; max-width: 1024px;">
+        <br /><br />
+        <br /><br />
+        <p style="font-size: 26px;
+            color: #1D2441;
+            font-weight: 700;
+            margin-bottom: 64px; text-align:left;" id="Phonv" class="Sysv">No matter how you invest with us, you’ll
+            always get:
+        </p>
+        <div style="width:90%;">
+            <center>
+                <div class="row">
+                    <div class="column" style="background-color:#fff;">
+                        <p style="color:#1D2441; font-size:15px; padding-left:40px; text-align:left;">Clear, reliable
+                            help
+                            from experienced investment professionals as you need it.
+                        </p>
+                    </div>
+                    <div class="column" style="background-color:#fff;">
+                        <p style="color:#1D2441; font-size:15px; padding-left:40px; text-align:left;">$0 account
+                            maintenance
+                            fees
+                        </p>
+                        <p style="color:#1D2441; font-size:15px; padding-left:40px; text-align:left;">$0 online listed
+                            stock, ETF, and base options trade commissions
+                        </p>
+                    </div>
+                    <div class="column" style="background-color:#fff;">
+                        <p style="color:#1D2441; font-size:15px; padding-left:40px; text-align:left;">Clear, reliable
+                            help
+                            from experienced investment professionals as you need it.
+                        </p>
+                    </div>
+                    <div class="column" style="background-color:#fff;">
+                        <p style="color:#1D2441; font-size:15px; padding-left:40px; text-align:left;">Clear, reliable
+                            help
+                            from experienced investment professionals as you need it.
+                        </p>
+                    </div>
+                </div>
+            </center>
+        </div>
+        <br /><br /><br /><br /><br /><br />
+        <center>
+            <h3>Our Equity Portfolio
+            </h3>
+        </center>
+        <br /><br />
+        <br /><br />
+        <center>
+            <div style="width:80%;">
+                <div class="row11">
+                    <div class="column11">
+                        <img src="https://fortedges-web.vercel.app/images/fb.svg">
+                    </div>
+                    <div class="column11">
+                        <img src="https://fortedges-web.vercel.app/images/square.svg">
+                    </div>
+                </div>
+            </div>
+        </center>
+        <center>
+            <div style="width:80%;">
+                <div class="row11">
+                    <div class="column11">
+                        <img src="https://fortedges-web.vercel.app/images/amazon.svg">
+                    </div>
+                    <div class="column11">
+                        <img src="https://fortedges-web.vercel.app/images/apple.svg">
+                    </div>
+                </div>
+                <div class="row11">
+                    <div class="column11">
+                        <img src="https://fortedges-web.vercel.app/images/berkshire.svg">
+                    </div>
+                    <div class="column11">
+                        <img src="https://fortedges-web.vercel.app/images/disney.svg">
+                    </div>
+                </div>
+                <div class="row11">
+                    <div class="column11">
+                        <img src="https://fortedges-web.vercel.app/images/esty.svg">
+                    </div>
+                    <div class="column11">
+                        <img src="https://fortedges-web.vercel.app/images/clear.svg">
+                    </div>
+                </div>
+            </div>
+        </center>
+        <br /><br />
+    </section>
     <footer class="footer-area" style="background-color: #100884; color: #8e87e9;">
         <div class="container">
             <div class="row justify-content-between">
@@ -431,6 +439,7 @@
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/jquery.nice-select.min.js"></script>
     <script src="js/custom.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
 </body>
 
 </html>

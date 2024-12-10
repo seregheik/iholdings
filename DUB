@@ -187,7 +187,7 @@
   <section style="margin: 0 auto; padding: 0 15px;">
     <center>
       <br>
-      <h2 style="text-align: center; color: white; text-transform: uppercase; font-size: 20px;">Forgot Password</h2>
+      <h2 style="text-align: center; color: white; text-transform: uppercase; font-size: 20px;">Sign in</h2>
       <div class="Wscreen" id="Pscreen">
         <br>
         <br><br>
@@ -202,7 +202,22 @@
                     padding-inline: 16px;
                     height: 56px;
                     border: 1px solid rgba(0, 0, 0, 0.1);
-                    background: rgb(255, 255, 255);
+                    background: rgba(0, 0, 0, 0.02);
+                    font-weight: 500;
+                    color: #1d2441;
+                    border-color: #e2e8f0;
+                    width: 100%;
+                  " />
+              </div>
+              <br>
+              <div class="col">
+                <input type="password" class="form-control" placeholder="Password" name="password" style="
+                    outline: transparent solid 2px;
+                    font-size: 1rem;
+                    padding-inline: 16px;
+                    height: 56px;
+                    border: 1px solid rgba(0, 0, 0, 0.1);
+                    background: rgba(0, 0, 0, 0.02);
                     font-weight: 500;
                     color: #1d2441;
                     border-color: #e2e8f0;
@@ -211,15 +226,13 @@
               </div>
               <br>
               <br>
-              <br>
               <button type="submit" name="submit" class="btn btn_primary" style="
                   background-color: #110884;
-                  border: 2px solid #fff;
                   border-radius: 10px;
                   color: white;
                   padding: 10px 15px;
                 ">
-                Recover Password
+                SIGN IN
               </button>
             </form>
           </div>
@@ -227,8 +240,8 @@
         <br><br><br>
         <br><br><br>
         <h6>
-          <b style="color: white"><span style="color: black"><a href="signin.html" style="color: white">Have and
-                account?</a></span>
+          <b style="color: white"><span style="color: black"><a href="forgotpassword.html" style="color: white">Forgot
+                Password?</a></span>
             <span><a href="signup.html" style="color: white">Don't have an account?</a></span></b>
         </h6>
         <br><br><br><br>
@@ -247,7 +260,14 @@
   <script src="js/jquery.nice-select.min.js"></script>
   <script src="js/custom.js"></script>
   <script async="" src="js/js"></script>
-
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+    gtag("config", "UA-23581568-13");
+  </script>
   <!-- Start of LiveChat (www.livechat.com) code -->
 </body>
 
